@@ -22,7 +22,7 @@ metadata:
   labels:
     colibri: ""
     monitor.edgefarm.io/metrics: default
-    accel-demo-edge: ""
+    accel-demo: ""
 spec:
   selector:
     matchLabels:
