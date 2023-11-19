@@ -33,7 +33,7 @@ spec:
         tolerations: []
         nodepoolSelector:
           matchExpressions:
-          - key: "accel-demo-edge"
+          - key: "accel-demo"
             operator: Exists
             
     streams:
