@@ -8,4 +8,4 @@ spec:
   type: Device
   owner: default/batthebee
   lifecycle: production
-  system: system:default/xwing
+  system: system:default/XWing
