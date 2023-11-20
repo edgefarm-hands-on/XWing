@@ -15,13 +15,13 @@ spec:
         command:
             - "/stress-ng"
             - "--cpu"
-            - "3"
+            - "6"
             - "--io"
             - "2"
             - "--vm-bytes"
             - "1G"
             - "timeout"
             - "600s"
-        cpu: 3
+        cpu: 6
         memory: 1Gi
       
