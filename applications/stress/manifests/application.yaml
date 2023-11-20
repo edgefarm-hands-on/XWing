@@ -24,5 +24,6 @@ spec:
           - "600s"
         cpu: 4
         memory: 1Gi
+      traits: []  
       
         
