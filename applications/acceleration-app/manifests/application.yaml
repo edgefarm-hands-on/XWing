@@ -7,7 +7,7 @@ spec:
     - name: acceleration-app
       type: edgefarm-applications
       properties:
-        image: ghcr.io/ci4rail/edgefarm-accel-demo-edgeapp/accel-samples-railwayforum:1.2.0
+        image: ghcr.io/ci4rail/edgefarm-accel-demo-edgeapp/accel-samples-railwayforum:1.1.0
         nodepoolSelector:
           matchLabels:
             accel-demo: ""
