@@ -13,9 +13,17 @@ spec:
             colibri: ""
         name: stress
         command:
-            - /stress-ng
-        cpu: 0.25
-        memory: 256Mi
+          - "/stress-ng"
+          - "--cpu"
+          - "3"
+          - "--io"
+          - "2"
+          - "--vm-bytes"
+          - "1G"
+          - "timeout"
+          - "600s"
+        cpu: 4
+        memory: 1Gi
       traits:
         []
         
